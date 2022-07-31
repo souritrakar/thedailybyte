@@ -1,3 +1,4 @@
+#Program to check if the double of a number exists in the same array the number is in
 n = [0, 9]
 
 def checkDoubles(numbers):
