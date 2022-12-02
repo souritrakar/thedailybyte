@@ -1,5 +1,5 @@
 s = "thedailybyte"
-temp_s = "thedailybyte"
+temp_s = s
 dictionary = ["the", "daily", "byte"]
 counter = 0
 
