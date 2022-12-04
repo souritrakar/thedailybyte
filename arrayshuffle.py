@@ -9,7 +9,6 @@ for i in range(0, len(nums)-1):
 
 print(nums)
     
- 
 """
 This question is asked by Amazon. Given an array of integers, nums, sort the array in any manner such that when i is even, nums[i] is even and when i is odd, nums[i] is odd.
 Note: It is guaranteed that a valid sorting of nums exists.
