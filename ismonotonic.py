@@ -1,7 +1,7 @@
 nums = [1, 2, 3, 4, 4, 5]
+isMonotonic = False
 mode = 0 #0 if decrease, 1 if increase
 smallest = nums[0]
-largest = nums[0]
 
 for i in range(0, len(nums)-1):
   if(nums[i] < nums[i+1]):
@@ -16,11 +16,6 @@ for j in range(0, len(nums)-1):
     #DECREASING
     if nums[j] > nums[j+1]:
       smallest = nums[j+1]
-  
-  if mode == 1:
-    #INCREASING
-    if nums[j] < nums[j+1]:
-      largest = nums[j+1]
 
 if (mode == 0 and smallest==nums[len(nums)-1]) or (mode == 1 and smallest == nums[0]):
   print(True)
@@ -40,7 +35,3 @@ nums = [7, 6, 3], return true.
 
 nums = [8, 4, 6], return false.
 """
-
-
-    
-  
