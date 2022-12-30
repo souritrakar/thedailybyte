@@ -5,7 +5,6 @@ for i in range(len(s)-1, -1, -1):
     break
   else:
     counter+=1
-
 print(counter)
 
 """
