@@ -1,4 +1,4 @@
-"""nums = [0, 4, 0, 5, 0, 2 ,1, 8, 0, 4]
+nums = [0, 4, 0, 5, 0, 2 ,1, 8, 0, 4]
 
 for i in range(0, len(nums)-1):
     #
@@ -16,5 +16,5 @@ for j in range(len(nums)-1,0,-1):
             nums[j+1] = nums[j]
             nums[j] = temp
 
-print(nums)"""
+print(nums)
     
